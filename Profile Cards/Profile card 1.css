@@ -1,0 +1,104 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.cardbottom:hover
+{
+    transform: scaley(105%);
+    transition: .2s;
+}
+
+img:hover
+{
+    transform: scale(105%);
+    transition: .2s;
+}
+
+.cardtop:hover
+{
+    transform: scaley(105%);
+    transition: .2s;  
+}
+
+.img1
+{
+    width: 50%;        
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+    position: relative;
+    right: 75%;
+    top: 8%;
+}
+
+.insta
+{
+    position: relative;
+    right: 28%;
+    top: 20%;
+}
+
+.twitter
+{
+    position: relative;
+    right: 27%;
+    top: 20%;
+}
+
+.fb
+{
+    position: relative;
+    right: 26%;
+    top: 20%;
+}
+
+.linkedin
+{
+    position: relative;
+    right: 25%;
+    top: 20%;
+}
+.pic
+{
+    width: 15%;
+    height: 50vh;
+}   
+
+.background
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#F9D976,#F39F86);
+    width: 100%;
+    height: 100vh;
+}
+
+.cardtop
+{
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    width: 15%;
+    height: 30vh;
+    background: linear-gradient(#3E0000,#7C0000);
+    position: relative;
+    left: 15%;
+    top: -10%;
+    box-shadow: 3px 3px 30px black;
+}
+
+.cardbottom
+{
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    width: 15%;
+    height: 20vh;
+    background: linear-gradient(#E9E9E9,#F6F6F6);
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-size: 150%;
+    box-shadow: 3px 3px 30px black;
+}

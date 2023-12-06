@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+.img1
+{
+    background: linear-gradient(#09203F,#537895);
+    padding: 3px;
+    border-radius: 3%;
+}
+
+
+.back
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes img1
+{
+    0% {scale: 100%; position:relative; bottom:0%;}
+    100% {scale: 50%; position:relative; bottom:20%; border-radius: 50%;}
+}
+
+.back:hover .img1
+{
+    animation-name: img1;
+    animation-iteration-count: 1;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.backcard
+{
+    width: 200px;
+    height: 266px;
+    background: linear-gradient(#1D2671,#C33764);
+    border-radius: 3%;
+}
+
+.details
+{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 12.5%;
+    top: 6%;
+    text-align: center;
+    opacity: 0%;
+}
+
+.back:hover .details
+{
+    opacity: 100%;
+    transition: opacity .3s;
+}
+
+.fb
+{
+    position: absolute;
+    right: 46%;
+    top: 61%;
+    opacity: 0%;
+}
+
+.fb:hover
+{
+    scale: 120%;
+}
+
+.back:hover .fb
+{
+    opacity: 100%;
+    transition: opacity .3s;
+}
+
+.twitter
+{
+    position: absolute;
+    right: 43%;
+    top: 61%;
+    opacity: 0%;
+}
+
+.twitter:hover
+{
+    scale: 120%;
+}
+
+.back:hover .twitter
+{
+    opacity: 100%;
+    transition: opacity .3s;
+}
+
+.linkedin
+{
+    position: absolute;
+    right: 40%;
+    top: 61%;
+    opacity: 0%;
+}
+
+.linkedin:hover
+{
+    scale: 120%;
+}
+
+.back:hover .linkedin
+{
+    opacity: 100%;
+    transition: opacity .3s;
+}
